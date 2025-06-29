@@ -116,10 +116,10 @@
   }
 
   .fade-in {
-    @apply animate-fade-in;
+    @apply opacity-0 animate-pulse;
   }
 
   .scale-in {
-    @apply animate-scale-in;
+    @apply transform scale-95 animate-bounce;
   }
 }
